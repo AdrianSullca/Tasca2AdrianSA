@@ -1,46 +1,28 @@
-/* Estilos generales */
+* {
+  padding: 10;
+  margin: 10;
+}
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  background: lightblue;
 }
 
-/* Estilos para la sección "titol" */
-
-.titol {
-    text-align: center;
-    background-color: #f0f0f0;
-    padding: 20px;
+img {
+  float: left;
+  width: 200px;
+  height: 130px;
+  padding: 10px;
 }
 
-/* Estilos para la sección "cos" */
-
-.cos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
+.article {
+  height: 135px;
+  width: 400px;
 }
 
-.activitat {
-    width: 45%;
-    margin: 10px;
-    padding: 10px;
-    background-color: #e0e0e0;
+p {
+  padding: 10px;
 }
 
-.activitat img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-/* Estilos para la sección "peu" */
-
-.peu {
-    text-align: center;
-    background-color: #f0f0f0;
-    padding: 20px;
+cos {
+  display: table;
 }
